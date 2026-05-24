@@ -7,7 +7,10 @@ function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <img src="/racculogo.png" alt="Raccu Logo" className="nav-logo" />
+        <div className="nav-brand">
+          <img src="/racculogo.png" alt="Raccu Logo" className="nav-logo" />
+          <span className="nav-nombre">Raccu</span>
+        </div>
         <ul className="nav-links">
           <li><a href="#descripcion">¿Qué es?</a></li>
           <li><a href="#caracteristicas">Características</a></li>
