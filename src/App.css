@@ -400,3 +400,90 @@ background-color: var(--color-accent);
 width: 24px;
 border-radius: 5px;
 }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 16px 24px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 48px 24px 40px;
+  }
+
+  .hero-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-img img {
+    width: 220px;
+  }
+
+  .descripcion {
+    padding: 48px 24px;
+  }
+
+  .descripcion-stats {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .caracteristicas {
+    padding: 48px 24px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .como-funciona {
+    padding: 48px 24px;
+  }
+
+  .pasos {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .paso-linea {
+    width: 2px;
+    height: 32px;
+    margin: 0;
+  }
+
+  .descarga {
+    padding: 48px 24px;
+  }
+
+  .descarga-contenido {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 24px;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

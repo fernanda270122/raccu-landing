@@ -7,7 +7,7 @@ function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <img src="/racculogo.png" alt="Raccu Logo" className="nav-logo" />
+        <img src="/raccu-landing/racculogo.png" alt="Raccu Logo" className="nav-logo" />
         <ul className="nav-links">
           <li><a href="#descripcion">¿Qué es?</a></li>
           <li><a href="#caracteristicas">Características</a></li>
@@ -25,7 +25,7 @@ function App() {
               <a href="#descarga" className="btn-primary">Descargar ahora</a>
             </div>
             <div className="hero-img">
-              <img src="/raccu_sn.png" alt="Mascota Raccu" />
+              <img src="/raccu-landing/raccu_sn.png" alt="Mascota Raccu" />
             </div>
           </div>
           <div className="hero-bottom">
@@ -44,10 +44,11 @@ function App() {
         <div className="descripcion-contenido">
           <h2>¿Qué es Raccu?</h2>
           <p>
-            Raccu es una aplicación de control parental diseñada para universitarios
-            que buscan una forma moderna y positiva de gestionar el uso del celular de sus hijos.
-            A través de desafíos, recompensas y bloqueos inteligentes, fomentamos hábitos
-            digitales saludables sin conflictos.
+            Raccu es una aplicación de control parental que permite a los padres
+              gestionar el uso del dispositivo móvil de sus hijos de manera inteligente
+              y positiva. A través de bloqueos programados, desafíos y un sistema de
+              recompensas, Raccu fomenta hábitos digitales saludables en familia,
+              promoviendo la responsabilidad y el equilibrio en el uso de la tecnología.
           </p>
           <div className="descripcion-stats">
             <div className="stat">
@@ -82,7 +83,7 @@ function App() {
             <div className="card">
               <span className="card-icon">⭐</span>
               <h3>Recompensas</h3>
-              <p>Tus hijos canjean sus puntos por recompensas que tú defines. Tú apruebas cada canje.</p>
+              <p>Tus hijos canjean sus puntos por recompensas que tú defines o que pueden elegir en conjunto. Tú apruebas cada canje.</p>
             </div>
             <div className="card">
               <span className="card-icon">🦝 </span>
@@ -143,7 +144,7 @@ function App() {
               </ul>
             </div>
             <div className="descarga-qr">
-              <img src="/raccu_qr.png" alt="QR de descarga de Raccu" />
+              <img src="/raccu-landing/raccu_qr.png" alt="QR de descarga de Raccu" />
               <p>Escanea para descargar</p>
             </div>
           </div>
@@ -151,7 +152,7 @@ function App() {
 
         {/* FOOTER */}
         <footer className="footer">
-          <img src="/racculogo.png" alt="Raccu" className="footer-logo" />
+          <img src="/raccu-landing/racculogo.png" alt="Raccu" className="footer-logo" />
           <p>© 2026 Raccu. Todos los derechos reservados.</p>
         </footer>
 
