@@ -7,7 +7,7 @@ function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <img src="/raccu-landing/racculogo.png" alt="Raccu Logo" className="nav-logo" />
+        <img src="/racculogo.png" alt="Raccu Logo" className="nav-logo" />
         <ul className="nav-links">
           <li><a href="#descripcion">¿Qué es?</a></li>
           <li><a href="#caracteristicas">Características</a></li>
@@ -25,7 +25,7 @@ function App() {
               <a href="#descarga" className="btn-primary">Descargar ahora</a>
             </div>
             <div className="hero-img">
-              <img src="/raccu-landing/raccu_sn.png" alt="Mascota Raccu" />
+              <img src="/raccu_sn.png" alt="Mascota Raccu" />
             </div>
           </div>
           <div className="hero-bottom">
@@ -144,7 +144,7 @@ function App() {
               </ul>
             </div>
             <div className="descarga-qr">
-              <img src="/raccu-landing/raccu_qr.png" alt="QR de descarga de Raccu" />
+              <img src="/raccu_qr.png" alt="QR de descarga de Raccu" />
               <p>Escanea para descargar</p>
             </div>
           </div>
@@ -152,7 +152,7 @@ function App() {
 
         {/* FOOTER */}
         <footer className="footer">
-          <img src="/raccu-landing/racculogo.png" alt="Raccu" className="footer-logo" />
+          <img src="/racculogo.png" alt="Raccu" className="footer-logo" />
           <p>© 2026 Raccu. Todos los derechos reservados.</p>
         </footer>
 

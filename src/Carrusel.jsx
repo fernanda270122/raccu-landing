@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react'
 
 const slides = [
   {
-    imagen: '/raccu-landing/carrucel1.jpeg',
+    imagen: '/carrucel1.jpeg',
     texto: 'Controla el tiempo de pantalla de tus hijos y bloquea apps cuando lo necesites',
   },
   {
-    imagen: '/raccu-landing/carrucel2.jpeg',
+    imagen: '/carrucel2.jpeg',
     texto: 'Asigna desafíos cognitivos, físicos y del hogar para que tus hijos ganen RaccuPoints',
   },
   {
-    imagen: '/raccu-landing/carrucel3.jpeg',
+    imagen: '/carrucel3.jpeg',
     texto: 'Tus hijos pueden canjear sus puntos por recompensas que tú defines',
   },
 ]
